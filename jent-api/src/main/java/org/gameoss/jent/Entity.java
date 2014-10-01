@@ -9,6 +9,13 @@ import java.util.Collection;
  */
 public interface Entity {
 	/**
+	 * The unique id of this {@link Entity}
+	 * 
+	 * @return
+	 */
+	String id();
+	
+	/**
 	 * Gets this {@link Entity}'s children.
 	 * 
 	 * @return this {@link Entity}'s children or an empty {@link Collection} if this {@link Entity} doesn't have any children
